@@ -1,0 +1,22 @@
+INSERT INTO Airports VALUES
+('LHR', 'London Heathrow', 'Longford, London, UK'),
+('JFK', 'John F. Kennedy International', 'Queens, New York, USA'),
+('ATL', 'Hartsfield–Jackson Atlanta International', 'Atlanta, Georgia, USA'),
+('ORD', 'OHare International', 'Chicago, Illinois, USA'),
+('DXB', 'Dubai International', 'Dubai, UAE'),
+('SYD', 'Sydney Kingsford Smith', 'Sydney, New South Wales, Australia'),
+('HKG', 'Hong Kong International', 'Chek Lap Kok, Hong Kong'),
+('SIN', 'Singapore Changi Airport', 'Changi, Singapore'),
+('FRA', 'Frankfurt Airport', 'Frankfurt, Germany'),
+('ICN', 'Incheon International', 'Incheon, South Korea'),
+('AMS', 'Amsterdam Schiphol', 'Amsterdam, Netherlands'),
+('SFO', 'San Francisco International', 'San Mateo County, California, USA'),
+('LAX', 'Los Angeles International', 'Los Angeles, California, USA'),
+('JNB', 'O.R. Tambo International', 'Johannesburg, South Africa'),
+('CDG', 'Charles de Gaulle International', 'Roissy-en-France, France'),
+('MUC', 'Munich Airport', 'Munich, Germany'),
+('ZRH', 'Zurich Airport', 'Zurich, Switzerland'),
+('YVR', 'Vancouver International', 'Vancouver, British Columbia, Canada'),
+('SEA', 'Seattle-Tacoma International', 'Seattle, Washington, USA'),
+('HND', 'Tokyo Hanedal', 'Tokyo, Japan')
+;

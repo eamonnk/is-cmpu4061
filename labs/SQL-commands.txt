@@ -1,0 +1,155 @@
+http://wql-island.informatik.uni-kl.de
+
+--- week 9-------examples----
+db password= InformationSystems
+--SELECT * FROM students;
+--SELECT name FROM students;
+-- SELECT name, score FROM students;
+--SELECT DISTINCT score FROM students;
+--SELECT name,score FROM students WHERE score > 90;
+--SELECT * FROM students WHERE name = "James";
+--SELECT * FROM students ORDER BY name;
+--SELECT * FROM students ORDER BY name DESC;
+--SELECT * FROM students ORDER BY score DESC LIMIT 1;
+SELECT name,score FROM students WHERE name LIKE "%s";
+--SELECT * FROM students WHERE name LIKE "%"
+<><><><><<><><><
+SELECT Name FROM students WHERE name LIKE "_a%"
+SELECT Name FROM students WHERE name LIKE "_a%"
+<<<one above ---- second letter is A>>>>
+SELECT name, score FROM students WHERE name LIKE "Kier[ao]n%"
+
+
+
+when usig group use gorup anme in list of columns todisplay
+
+SELECT MAX(score) AS highest_score FROM students WHERE module = "IT";
+
+SELECT module, COUNT(*) AS student_count FROM students GROUP BY module
+
+SELECT module, AVG(score) AS average_score FROM students GROUP BY module HAVING AVG(score) > 85
+
+-- one line comment
+
+/*xyz */ for multi line
+
+----week 10--- in class examples -----
+-- SELECT name, gdp/population AS gdppercaita from countries WHERE population > 200000000
+-- SELECT name, population from countries WHERE name = 'Andorra' or name = 'Angola'
+-- SELECT name, population, area FROM countries WHERE area > 20000000 OR population> 20000000
+-- SELECT name, population, area FROM countries WHERE area > 2000000 AND population> 2000000
+
+--- Joins----
+SELECT employees.EmpID, employees.EmpName, employees.DeptID, departments.DeptName FROM employees INNER JOIN departments ON employees.DeptID=departments.DeptID;
+
+
+---- MYSQL error -- when trying to manually create a table ----
+Operation failed: There was an error while applying the SQL script to the database.
+Executing:
+CREATE TABLE `movies`.`languages` (
+);
+
+ERROR 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 2
+SQL Statement:
+CREATE TABLE `movies`.`languages` (
+)
+
+----------- website-----
+http://wql-island.informatik.uni-kl.de
+-------cmds below from there
+
+SELECT inhabitant.name FROM inhabitant, village
+WHERE inhabitant.villageid = village.villageid 
+AND village.villageid = 3 
+AND village.chief = 13;
+
+SELECT village.name FROM village, inhabitant 
+WHERE village.villageid = inhabitant.villageid 
+AND inhabitant.name = 'Dirty Dieter'
+
+Select inhabitant.name 
+from inhabitant JOIN village 
+where inhabitant.personid=village.chief 
+AND village.name="Onionville"
+
+Select count(*)
+FROM inhabitant JOIN village 
+Where gender='f'
+AND village.name="Onionville"
+
+SELECT name
+FROM inhabitant
+JOIN village ON inhabitant.villageid = village.villageid
+WHERE gender = 'f'
+AND village.name = 'Onionville';
+
+
+select SUM(gold) from inhabitant where job = 'baker' OR job = 'dealer' or job = 'merchants'
+
+SELECT job, SUM(inhabitant.gold), AVG(inhabitant.gold) FROM inhabitant GROUP BY job ORDER BY AVG(inhabitant.gold)
+----------------
+
+
+SELECT * FROM cars
+
+/*SELECT carMake, price FROM cars*/
+
+/*SELECT carMake, price FROM cars WHERE carMake=”*/
+
+/*SELECT carMake, price, carOwner FROM cars WHERE carOwner LIKE "J%")*/
+
+/*SELECT carMake, max(price), min(price) FROM cars GROUP BY carMake*/
+
+/* SELECT carMake, COUNT(reg_No) AS Number_of_cars FROM cars GROUP BY carMake */
+
+/*SELECT COUNT(carMake) FROM cars */
+
+/*SELECT COUNT(DISTINCT carMake) FROM cars */
+
+
+------assignment 2----
+
+-- INSERT INTO if not exists `airline-1`.`airports` (`airport_ID`,`name`, `address`)
+-- VALUES ('LHR', 'London Heathrow', 'Longford, London, UK');
+
+INSERT IGNORE INTO `airline-1`.`airports` (`airport_ID`, `name`, `address`)
+VALUES ('LHR', 'London Heathrow', 'Longford, London, UK');
+
+
+
+----create table ----
+CREATE TABLE `airline-1`.`aircraft_model` (
+);
+
+
+
+-- INSERT INTO if not exists `airline-1`.`airports` (`airport_ID`,`name`, `address`)
+-- VALUES ('LHR', 'London Heathrow', 'Longford, London, UK');
+
+-- INSERT IGNORE INTO `airline-1`.`airports` (`airport_ID`, `name`, `address`)
+-- VALUES ('LHR', 'London Heathrow', 'Longford, London, UK');
+
+
+CREATE TABLE IF NOT EXISTS aircraft_model (
+    aircraft_model_ID VARCHAR(50) PRIMARY KEY,
+    type VARCHAR(45),
+    year_of_manufacture YEAR,
+    configuration VARCHAR(45),
+    manufacturer_name VARCHAR(45)
+);
+
+
+
+
+-------FKs-----
+To see all constraints for a table, you can use:
+SHOW CREATE TABLE Staff;
+
+
+
+---- highestnumber of rows in database from all tables ---
+SELECT table_name, table_rows
+FROM information_schema.tables
+WHERE table_schema = 'airline_7_with_fks'
+ORDER BY table_rows DESC
+LIMIT 1;

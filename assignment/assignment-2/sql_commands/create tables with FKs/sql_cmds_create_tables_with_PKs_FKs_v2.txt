@@ -1,0 +1,114 @@
+-- Create the 'Aircraft_Model' table if it doesn't exist
+CREATE TABLE IF NOT EXISTS Aircraft_Model (
+    aircraft_model_ID VARCHAR(50) PRIMARY KEY,
+    type VARCHAR(45),
+    year_of_manufacture YEAR,
+    configuration VARCHAR(45),
+    manufacturer_name VARCHAR(45)
+);
+
+-- Create the 'Airports' table if it doesn't exist
+CREATE TABLE IF NOT EXISTS Airports (
+    airport_ID VARCHAR(4) PRIMARY KEY,
+    name VARCHAR(50),
+    address VARCHAR(255)
+);
+
+-- Create the 'Aircraft' table if it doesn't exist
+CREATE TABLE IF NOT EXISTS Aircraft (
+    aircraft_ID INT PRIMARY KEY,
+    aircraft_model_ID VARCHAR(50),
+    airport_ID VARCHAR(4),
+    seat_capacity INT,
+    min_num_staff_required_to_operate INT,
+    FOREIGN KEY (aircraft_model_ID) REFERENCES Aircraft_Model(aircraft_model_ID),
+    FOREIGN KEY (airport_ID) REFERENCES Airports(airport_ID)
+);
+
+-- Create the 'Maintenance' table if it doesn't exist
+CREATE TABLE IF NOT EXISTS Maintenance (
+    event_ID INT PRIMARY KEY,
+    aircraft_ID INT,
+    airport_ID VARCHAR(4),
+    work_type VARCHAR(25),
+    work_detail VARCHAR(50),
+    event_date_time DATETIME,
+    FOREIGN KEY (aircraft_ID) REFERENCES Aircraft(aircraft_ID),
+    FOREIGN KEY (airport_ID) REFERENCES Airports(airport_ID)
+);
+
+-- Create the 'Flights' table if it doesn't exist
+CREATE TABLE IF NOT EXISTS Flights (
+    flight_ID INT PRIMARY KEY,
+    dep_airport_ID VARCHAR(4),
+    arr_airport_ID VARCHAR(4),
+    aircraft_ID INT,
+    flight_number VARCHAR(10),
+    dep_date_time DATETIME,
+    arr_date_time DATETIME,
+    FOREIGN KEY (dep_airport_ID) REFERENCES Airports(airport_ID),
+    FOREIGN KEY (arr_airport_ID) REFERENCES Airports(airport_ID),
+    FOREIGN KEY (aircraft_ID) REFERENCES Aircraft(aircraft_ID)
+);
+
+-- Create the 'Bookings' table if it doesn't exist
+CREATE TABLE IF NOT EXISTS Bookings (
+    booking_ID INT PRIMARY KEY,
+    customer_ID INT,
+    flight_ID INT,
+    booking_date_time DATETIME,
+    payment_status BOOLEAN,
+    price DECIMAL(10, 2),
+    seat_number VARCHAR(5),
+    cust_checked_in BOOLEAN,
+    cust_boarded BOOLEAN,
+    FOREIGN KEY (customer_ID) REFERENCES Customers(customer_ID),
+    FOREIGN KEY (flight_ID) REFERENCES Flights(flight_ID)
+);
+
+-- Create the 'Staff' table if it doesn't exist
+CREATE TABLE IF NOT EXISTS Staff (
+    staff_ID INT PRIMARY KEY,
+    airport_ID VARCHAR(4),
+    job_title VARCHAR(45),
+    name VARCHAR(25),
+    address VARCHAR(255),
+    tel_no VARCHAR(50),
+    email_address VARCHAR(45),
+    FOREIGN KEY (airport_ID) REFERENCES Airports(airport_ID)
+);
+
+-- Create the 'Flight_Staff' table if it doesn't exist
+CREATE TABLE IF NOT EXISTS Flight_Staff (
+    staff_ID INT,
+    flight_ID INT,
+    flight_role VARCHAR(45),
+    PRIMARY KEY (staff_ID, flight_ID),
+    FOREIGN KEY (staff_ID) REFERENCES Staff(staff_ID),
+    FOREIGN KEY (flight_ID) REFERENCES Flights(flight_ID)
+);
+
+-- Create the 'Customers' table if it doesn't exist
+CREATE TABLE IF NOT EXISTS Customers (
+    customer_ID INT PRIMARY KEY,
+    payment_ID INT,
+    title VARCHAR(10),
+    cust_first_name VARCHAR(45),
+    cust_surname VARCHAR(45),
+    cust_address VARCHAR(255),
+    date_of_birth DATE,
+    passport_ID_num VARCHAR(45),
+    cust_tel_no VARCHAR(50),
+    cust_email_address VARCHAR(45),
+    cust_payment_preference VARCHAR(45),
+    FOREIGN KEY (payment_ID) REFERENCES Payment_Methods(payment_ID)
+);
+
+-- Create the 'Payment_Methods' table if it doesn't exist
+CREATE TABLE IF NOT EXISTS Payment_Methods (
+    payment_ID INT PRIMARY KEY,
+    payment_type VARCHAR(45),
+    payment_provider VARCHAR(45),
+    credit_card_number VARCHAR(25),
+    exp_date VARCHAR(45)
+);

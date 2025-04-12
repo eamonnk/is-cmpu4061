@@ -1,0 +1,165 @@
+select * from airlinedb_ek_updated.flights
+
+select * from airlinedb_ek_updated.bookings
+
+select * from airlinedb_ek_updated.customers
+
+select * from airlinedb_ek_updated.customer_bookings
+
+select * from airlinedb_ek_updated.aircraft_model
+
+select * from airlinedb_ek_updated.aircraft
+
+select * from airlinedb_ek_updated.maintenance
+
+select * from airlinedb_ek_updated.airports
+
+select * from airlinedb_ek_updated.staff
+
+select * from airlinedb_ek_updated.flight_staff
+
+select * from airlinedb_ek_updated.payment_methods
+
+----->>> how many pilots, CABIN CREW AND GROUNS STAFF do we have?
+select COUNT(*) from airlinedb_ek_updated.staff where job_title='pilot'
+
+select COUNT(*) from airlinedb_ek_updated.staff where job_title='cabin crew'
+
+select COUNT(*) from airlinedb_ek_updated.staff where job_title='ground staff'
+
+
+----->>> how many Boeing 777 aircraft type do we have?
+select COUNT(*) from airlinedb_ek_updated.aircraft where aircraft_model_ID='B777'
+
+
+
+
+----->>>> insert a new airport i.e. a new route
+
+select * from airlinedb_ek_updated.airports where name like 'd%'
+
+then
+
+INSERT INTO airlinedb_ek_updated.airports VALUES
+('DUB', 'Dublin Airport', 'airport road, swords, Dublin 17');
+
+then
+
+select * from airlinedb_ek_updated.airports where name like 'd%'
+
+
+----->>>> update airport details
+Update airlinedb_ek_updated.airports 
+set address='52 airport road, swords, Dublin 21'
+where airport_ID='DUB'
+
+
+----->>>> delete airport details
+delete from airlinedb_ek_updated.airports  where airport_ID='DUB'
+
+
+
+----->>>> how many customers with names containing the letter m n their name?
+This filters the rows, returning only those where the name column starts with the letter 'M'. The % symbol is a wildcard that represents any sequence of characters (including no characters at all)
+not case sensitive
+SELECT * from airlinedb_ek_updated.customers where cust_first_name like 'm%'
+
+and
+
+SELECT * from airlinedb_ek_updated.customers where cust_first_name like '%d%'
+and cust_email_address like'%gmail%';
+
+----->>>> what is the max price of flights for bookings?
+SELECT MAX(airlinedb_ek_updated.bookings.price) FROM airlinedb_ek_updated.bookings
+
+----->>>> what is the min price of flights for bookings?
+SELECT MIN(airlinedb_ek_updated.bookings.price) AS Min_Flight_Price FROM airlinedb_ek_updated.bookings 
+
+----->>>> what is the average price of flights for bookings?
+SELECT avg(airlinedb_ek_updated.bookings.price) AS Avg_Flight_Price FROM airlinedb_ek_updated.bookings 
+
+
+----->>>> how many flights go to Heathrow from 2024?
+SELECT count(*) from airlinedb_ek_updated.flights where arr_airport_ID='LHR'
+
+----->>>> how many flights go to Heathrow during december 2024?
+SELECT count(*) from airlinedb_ek_updated.flights where arr_airport_ID='LHR' 
+and dep_date_time >= '2024-12-01'
+and dep_date_time <= '2024-12-31'
+
+----->>>> what aircfraft has the highest number of maintenance events and in which airport does it occur?
+SELECT aircraft_ID, count(*) as num_of_maintenance_events from airlinedb_ek_updated.maintenance 
+group by aircraft_ID
+order by num_of_maintenance_events DESC
+
+andjust top entry
+
+SELECT aircraft_ID, count(*) as num_of_maintenance_events from airlinedb_ek_updated.maintenance 
+group by aircraft_ID
+order by num_of_maintenance_events DESC
+limit 1
+
+----->>>> REGEX - customers with surname starting with letter R
+SELECT * from airlinedb_ek_updated.customers where cust_surname REGEXP '^R';
+
+----->>>> INNER JOIN --- what type of aircraft has the highest number of maintenance events?
+(this is an inner join)
+
+SELECT airlinedb_ek_updated.aircraft.aircraft_model_ID, count(*) as num_of_maintenance_events 
+from airlinedb_ek_updated.maintenance 
+join airlinedb_ek_updated.aircraft ON airlinedb_ek_updated.maintenance.aircraft_ID=airlinedb_ek_updated.aircraft.aircraft_ID
+group by airlinedb_ek_updated.aircraft.aircraft_model_ID
+order by num_of_maintenance_events  DESC
+
+
+----->>>> SUB Query >>>  Average price of flight to LHR
+select AVG(airlinedb_ek_updated.bookings.price) AS avg_LHR_flight_price From airlinedb_ek_updated.bookings
+where flight_ID IN(Select flight_ID from airlinedb_ek_updated.flights where airlinedb_ek_updated.flights.arr_airport_ID = 'LHR')
+
+
+
+
+
+----->>>> VIEW - is  JOIN of flights to bookings and bookings to customer
+----->>>> the number of flights to LHR and the passenger names travelling on those flights?
+    SELECT 
+        flights.flight_ID AS flight_ID,
+        customers.cust_first_name AS cust_first_name,
+        customers.cust_surname AS cust_surname
+    FROM
+        (((flights
+        JOIN bookings ON ((flights.flight_ID = bookings.flight_ID)))
+        JOIN customer_bookings ON ((bookings.booking_ID = customer_bookings.booking_ID)))
+        JOIN customers ON ((customer_bookings.customer_ID = customers.customer_ID)))
+    WHERE
+        (flights.arr_airport_ID = 'lax')
+
+
+>>> what staff member has been assigned the most flights?
+
+>>> what is the most popular payment method for customers?
+
+what the most common route we have
+
+
+
+INDEX- typically appears in a  lot of WHERE and JOIN queries
+
+primarye key index cannotbe null - unique index can be null
+repeat queries around flight - hence addindex to 
+
+1) flights.flight_number
+2) flights.arr_airport_ID(non-unique) + 
+3) flights.arr_date_time + 
+4) bookings.price (Non unique key - could ahve flights with same price and this allows that)
+
+typically appears in a  lot of where and join queries
+helpdeks staff woudluses these a lto to help customers book flights
+
+flight_ID + Booking ID - btu are already indexed as primary keys
+
+
+----- >>> query the arriveal time ofa particularf flight --- no noticebale difference in duration/fetch time...
+SELECT flight_ID,flight_number,arr_date_time FROM airlinedb_ek_v3.Flights
+WHERE flight_number = 'FN044'
+

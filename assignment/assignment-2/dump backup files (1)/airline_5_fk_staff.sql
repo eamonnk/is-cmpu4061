@@ -1,0 +1,55 @@
+-- MySQL dump 10.13  Distrib 8.0.40, for Win64 (x86_64)
+--
+-- Host: localhost    Database: airline_5_fk
+-- ------------------------------------------------------
+-- Server version	8.0.40
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `staff`
+--
+
+DROP TABLE IF EXISTS `staff`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `staff` (
+  `staff_ID` int NOT NULL,
+  `job_title` varchar(45) DEFAULT NULL,
+  `name` varchar(25) DEFAULT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  `tel_no` varchar(50) DEFAULT NULL,
+  `email_address` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`staff_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `staff`
+--
+
+LOCK TABLES `staff` WRITE;
+/*!40000 ALTER TABLE `staff` DISABLE KEYS */;
+INSERT INTO `staff` VALUES (1,'Technician','Adam Turner','503 Kennedy Camp Suite 808, New Andreaport, MO 49781','1219764428','mhernandez@gmail.com'),(2,'Technician','Carol Anderson','6897 Villanueva Ridges Apt. 038 Ashleyburgh, MS 65240','3606746064','watsonholly@hotmail.com'),(3,'Technician','Jessica Washington','Unit 0285 Box 6394, DPO AP 58941','9774656145','gregorypaul@jenkins.com'),(4,'Cabin Crew','Samuel Eaton','4488 Karen Walks Mariaport, NV 68824','8320139695','scott98@robinson-browning.com'),(5,'Technician','Peter Nichols','06886 Tiffany Statio Port Nancymouth, SC 63879','1137820076','buckamanda@gmail.com'),(6,'Technician','Lisa Craig','086 Castro Mills North Charles, VT 42357','2064513215','martingeorge@logan.net'),(7,'Cabin Crew','Mark Koch','468 Margaret Highway Suite 228 Hillfort, OK 77894','6352441449','xcooper@sanchez.com'),(8,'Cabin Crew','Andrew Price','0255 Alex Lake Osborneville, NH 93799','1481762974','aprilrobles@adams.com'),(9,'Cabin Crew','April Rios','701 Jones Springs Suite 593 Lake Shawnstad, ND 20333','7601594019','johnsonandrea@wilcox-cortez.com'),(10,'Cabin Crew','Dawn Rowe','777 Gabriel Ville Roseville, KY 41309','3556149114','wumatthew@gmail.com'),(11,'Ground Staff','Victoria Peterson','361 Holland Parks Apt. 402 Brownbury, RI 71208','2164513756','wilsontaylor@davis-arellano.com'),(12,'Cabin Crew','James Berry','51766 Steven Forest Apt. 298 South Veronicafurt, MD 30144','8150440125','lee70@frazier.com'),(13,'Technician','Felicia Smith','3196 Cooper Ramp West Mark, AK 04716','4107285585','millersusan@ford.com'),(14,'Technician','Grace Ortega','95252 Richards Pines Crystalchester, MN 25333','1728619706','elizabeth47@hotmail.com'),(15,'Pilot','Cindy Griffin','878 Steven Ways North Travis, NM 37661','1565564089','transhirley@hicks.com'),(16,'Pilot','Jennifer Butler','22259 Rodriguez Wall Suite 093 South Thomas, ND 02172','6412681286','markpowers@hotmail.com'),(17,'Technician','Jennifer Haynes','846 Kevin Extension Apt. 906 Graytown, IA 66077','8638335659','evanswanda@gomez-graham.com'),(18,'Ground Staff','Jennifer Lewis','203 Rocha Ford Port Michaelhaven, ND 62717','5288205951','jonathanschneider@yahoo.com'),(19,'Ground Staff','Linda Schwartz','Unit 8736 Box 8953 DPO AP 79939','8398457852','benjamin08@collins.com'),(20,'Cabin Crew','Lauren Thomas','2795 Michelle Overpass North Ashleyberg, MN 64145','6727304528','brittanysmith@yahoo.com'),(21,'Ground Staff','Jessica Singleton','121 Richardson Alley Suite 929 Barrystad, ID 53115','4114410356','jamesbailey@gmail.com'),(22,'Ground Staff','Amanda Martin','757 Murray Union Lake Johnhaven, CT 77220','9399953972','rmorgan@hotmail.com'),(23,'Technician','Mary Oconnell','75528 Stephen Point Suite 854 Edwardfurt, SD 83163','9013412189','thomas47@hotmail.com'),(24,'Ground Staff','Jeremy Myers III','99228 Carl Prairie Richardbury, WV 77582','6029720379','vmoore@gmail.com'),(25,'Pilot','Laura Alexander','94095 Shirley Loaf Suite 002 New Brianburgh, ME 35076','9574256291','debra83@glenn-bradley.info'),(26,'Cabin Crew','Stephanie Williams','06682 Lewis Haven Apt. 204 Marktown, KY 99877','6229671361','ekristen56@perez-porter.net'),(27,'Ground Staff','Matthew Carson','7402 David Manors Apt. 487 Raymondview, NC 13922','5832362250','elizabethwalker@hotmail.com'),(28,'Pilot','Paul Guerra','51447 Brandon Locks Fordfurt, UT 20790','2635543965','carterrachel@price.com'),(29,'Technician','Wayne Reyes','27224 Watts Keys Port Charles, UT 24169','2276657457','nicholasgarcia@yahoo.com'),(30,'Cabin Crew','Candace Nelson','PSC 1397, Box 9978 APO AP 66491','2435113065','jesse41@thomas-green.com'),(31,'Cabin Crew','Robert Dickerson','212 Brian Union Suite 323 Jeremiahview, MO 82253','6852331858','pallen@stewart.com'),(32,'Pilot','Allison Lopez','672 Jeremy Ranch Apt. 02 South Rachel, KY 59072','5578225330','jeanettelittle@gmail.com'),(33,'Technician','Samuel Richmond','713 Juan Ports East Jamiechester, IN 82962','1787243392','Marydavis@smith.biz'),(34,'Technician','Laurie Strickland','PSC 8444, Box 5232 APO AP 01811','9466983713','marythompson@mercer-baker.biz'),(35,'Ground Staff','Ashley Smith','8591 Samuel Field East Laura, VA 87850','1707891753','donald51@long.com'),(36,'Pilot','Cynthia Stephenson','61927 Jon Drives Suite 428 South Christianberg, CA 98219','5255049593','mistymoore@yahoo.com'),(37,'Ground Staff','Juan Thomas','944 Phillips Islands Murphyhaven, CT 51650','8404131925','rosekatherine@thomas-callahan.com'),(38,'Pilot','Kelli Ward','545 Ramos Crest Apt. 209 South Paul, TN 61899','932490964','gonzalezfrederick@diaz.org'),(39,'Ground Staff','Scott Odonnell','4202 Flowers Land Kathrynberg, MN 06438','4728499469','brownjoseph@anderson-smith.info'),(40,'Cabin Crew','Jordan Dixon','911 Keith Port Apt. 923 Masonport, WY 05654','7640656955','johngriffin@hotmail.com');
+/*!40000 ALTER TABLE `staff` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2024-12-21  3:33:31

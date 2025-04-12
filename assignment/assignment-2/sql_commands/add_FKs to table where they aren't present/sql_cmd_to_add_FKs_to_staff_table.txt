@@ -1,0 +1,7 @@
+ALTER TABLE Staff
+ADD COLUMN airport_ID VARCHAR(4);
+
+
+ALTER TABLE Staff
+ADD CONSTRAINT fk_airport
+FOREIGN KEY (airport_ID) REFERENCES Airports(airport_ID);

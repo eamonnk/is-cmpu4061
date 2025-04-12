@@ -1,0 +1,8 @@
+-- 10. customer_bookings Table (Group Bookinkg table)
+CREATE TABLE IF NOT EXISTS Customer_Bookings (
+    booking_ID INT,
+    customer_ID INT,
+    PRIMARY KEY (booking_ID, customer_ID),
+    FOREIGN KEY (booking_ID) REFERENCES Bookings(booking_ID),
+    FOREIGN KEY (customer_ID) REFERENCES Customers(customer_ID)
+);

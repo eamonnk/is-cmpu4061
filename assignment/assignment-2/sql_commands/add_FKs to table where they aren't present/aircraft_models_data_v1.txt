@@ -1,0 +1,21 @@
+-- Insert 19 rows for Aircraft Models
+INSERT INTO airline_7_with_fks.aircraft_model VALUES
+('A320', 'Airbus A320', 2015, 'Narrow-body, Single-aisle', 'Airbus'),
+('B737', 'Boeing 737', 2018, 'Narrow-body, Single-aisle', 'Boeing'),
+('A350', 'Airbus A350', 2020, 'Wide-body, Twin-aisle', 'Airbus'),
+('B787', 'Boeing 787', 2021, 'Wide-body, Twin-aisle', 'Boeing'),
+('A380', 'Airbus A380', 2019, 'Wide-body, Four-engine', 'Airbus'),
+('B767', 'Boeing 767', 2014, 'Wide-body, Twin-engine', 'Boeing'),
+('E175', 'Embraer E175', 2017, 'Regional Jet, Single-aisle', 'Embraer'),
+('CRJ200', 'Bombardier CRJ200', 2016, 'Regional Jet, Single-aisle', 'Bombardier'),
+('B747', 'Boeing 747', 2007, 'Wide-body, Four-engine', 'Boeing'),
+('A330', 'Airbus A330', 2013, 'Wide-body, Twin-engine', 'Airbus'),
+('B737 MAX', 'Boeing 737 MAX', 2022, 'Narrow-body, Single-aisle', 'Boeing'),
+('A321', 'Airbus A321', 2014, 'Narrow-body, Single-aisle', 'Airbus'),
+('B757', 'Boeing 757', 2015, 'Wide-body, Twin-engine', 'Boeing'),
+('A310', 'Airbus A310', 2012, 'Wide-body, Twin-engine', 'Airbus'),
+('B777', 'Boeing 777', 2018, 'Wide-body, Twin-engine', 'Boeing'),
+('A220', 'Airbus A220', 2021, 'Regional Jet, Single-aisle', 'Airbus'),
+('E190', 'Embraer E190', 2019, 'Regional Jet, Single-aisle', 'Embraer'),
+('B737NG', 'Boeing 737 NG', 2016, 'Narrow-body, Single-aisle', 'Boeing'),
+('A350-1000', 'Airbus A350-1000', 2022, 'Wide-body, Twin-aisle', 'Airbus');

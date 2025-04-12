@@ -1,0 +1,2468 @@
+{
+  "title" : "",
+  "description" : "",
+  "author" : "",
+  "targetLoudness" : -18.0,
+  "shouldApplyLoudnessNormalization" : true,
+  "videoFormatFrameRate" : 30,
+  "audioFormatSampleRate" : 44100,
+  "width" : 1804.0,
+  "height" : 1008.0,
+  "version" : "3.0",
+  "editRate" : 30,
+  "authoringClientName" :  {
+    "name" : "Camtasia",
+    "platform" : "Windows",
+    "version" : "19.0"
+  },
+  "sourceBin" : [
+    {
+      "id" : 1,
+      "src" : "C:\\Users\\eamon\\OneDrive\\Documents\\Camtasia\\Rec 12-24-24.trec",
+      "rect" : [0, 0, 1804, 1008],
+      "lastMod" : "20241224T065659",
+      "sourceTracks" : [
+        {
+          "range" : [0, 24187],
+          "type" : 0,
+          "editRate" : 30,
+          "trackRect" : [0, 0, 1804, 1008],
+          "sampleRate" : 29,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : "2b7b6a00-7a1f-11e2-83d0-0017f200be7f;2b7b6aef-7a1f-11e2-83d0-0017f200be7f;2b7b6af0-7a1f-11e2-83d0-0017f200be7f;2b7b6af1-7a1f-11e2-83d0-0017f200be7f;2b7b6af2-7a1f-11e2-83d0-0017f200be7f;2b7b6af3-7a1f-11e2-83d0-0017f200be7f;2b7b6af5-7a1f-11e2-83d0-0017f200be7f;2b7b6af6-7a1f-11e2-83d0-0017f200be7f;2b7b6af7-7a1f-11e2-83d0-0017f200be7f;2b7b6af8-7a1f-11e2-83d0-0017f200be7f;2b7b6af9-7a1f-11e2-83d0-0017f200be7f;2b7b6afa-7a1f-11e2-83d0-0017f200be7f;"
+        },
+        {
+          "range" : [0, 24192000],
+          "type" : 0,
+          "editRate" : 30000,
+          "trackRect" : [0, 0, 640, 480],
+          "sampleRate" : 4,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        },
+        {
+          "range" : [0, 35568640],
+          "type" : 2,
+          "editRate" : 44100,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 16,
+          "numChannels" : 2,
+          "integratedLUFS" : -36.7408095810293,
+          "peakLevel" : 0.99420166015625,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20241224T065701.969792"
+      }
+    },
+    {
+      "id" : 2,
+      "src" : "C:\\Users\\eamon\\OneDrive\\Documents\\Camtasia\\Rec 12-24-24_001.trec",
+      "rect" : [0, 0, 1804, 1008],
+      "lastMod" : "20241224T072337",
+      "sourceTracks" : [
+        {
+          "range" : [0, 5188],
+          "type" : 0,
+          "editRate" : 30,
+          "trackRect" : [0, 0, 1804, 1008],
+          "sampleRate" : 29,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : "2b7b6a00-7a1f-11e2-83d0-0017f200be7f;2b7b6aef-7a1f-11e2-83d0-0017f200be7f;2b7b6af0-7a1f-11e2-83d0-0017f200be7f;2b7b6af1-7a1f-11e2-83d0-0017f200be7f;2b7b6af2-7a1f-11e2-83d0-0017f200be7f;2b7b6af3-7a1f-11e2-83d0-0017f200be7f;2b7b6af5-7a1f-11e2-83d0-0017f200be7f;2b7b6af6-7a1f-11e2-83d0-0017f200be7f;2b7b6af7-7a1f-11e2-83d0-0017f200be7f;2b7b6af8-7a1f-11e2-83d0-0017f200be7f;2b7b6af9-7a1f-11e2-83d0-0017f200be7f;2b7b6afa-7a1f-11e2-83d0-0017f200be7f;"
+        },
+        {
+          "range" : [0, 5189000],
+          "type" : 0,
+          "editRate" : 30000,
+          "trackRect" : [0, 0, 640, 480],
+          "sampleRate" : 4,
+          "bitDepth" : 0,
+          "numChannels" : 0,
+          "integratedLUFS" : 100.0,
+          "peakLevel" : -1.0,
+          "metaData" : ""
+        },
+        {
+          "range" : [0, 7630848],
+          "type" : 2,
+          "editRate" : 44100,
+          "trackRect" : [0, 0, 0, 0],
+          "sampleRate" : 44100,
+          "bitDepth" : 16,
+          "numChannels" : 2,
+          "integratedLUFS" : -37.1602845985276,
+          "peakLevel" : 0.355712890625,
+          "metaData" : ""
+        }
+      ],
+      "metadata" : {
+        "timeAdded" : "20241224T072339.622336"
+      }
+    }
+  ],
+  "timeline" : {
+    "id" : 3,
+    "sceneTrack" : {
+      "scenes" : [
+        {
+          "duration" : 869.066666666667,
+          "title" : "",
+          "type" : "",
+          "csml" : {
+            "tracks" : [
+              {
+                "trackIndex" : 0,
+                "medias" : [
+                  {
+                    "id" : 4,
+                    "_type" : "StitchedMedia",
+                    "minMediaStart" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 12-24-24",
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                    "parameters" : {
+                      "cursorOpacity" : 1.0,
+                      "cursorScale" : 1.0
+                    },
+                    "medias" : [
+                        {
+                          "id" : 5,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 0,
+                          "duration" : 1150,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 1150,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 6,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 1150,
+                          "duration" : 312,
+                          "mediaStart" : 1570,
+                          "mediaDuration" : 312,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 7,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 1462,
+                          "duration" : 477,
+                          "mediaStart" : 2265,
+                          "mediaDuration" : 477,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 8,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 1939,
+                          "duration" : 812,
+                          "mediaStart" : 2875,
+                          "mediaDuration" : 812,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 9,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 2751,
+                          "duration" : 10896,
+                          "mediaStart" : 3761,
+                          "mediaDuration" : 10896,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 10,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 13647,
+                          "duration" : 2384,
+                          "mediaStart" : 14831,
+                          "mediaDuration" : 2384,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 11,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 16031,
+                          "duration" : 1154,
+                          "mediaStart" : 17289,
+                          "mediaDuration" : 1154,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 12,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 17185,
+                          "duration" : 5662,
+                          "mediaStart" : 18525,
+                          "mediaDuration" : 5662,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 57,
+                    "duration" : 18319,
+                    "mediaStart" : 382,
+                    "mediaDuration" : 18319,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 13,
+                    "_type" : "StitchedMedia",
+                    "minMediaStart" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 12-24-24_001",
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                    "parameters" : {
+                      "cursorOpacity" : 1.0,
+                      "cursorScale" : 1.0
+                    },
+                    "medias" : [
+                        {
+                          "id" : 14,
+                          "_type" : "ScreenVMFile",
+                          "src" : 2,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24_001"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 0,
+                          "duration" : 1994,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 1994,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 15,
+                          "_type" : "ScreenVMFile",
+                          "src" : 2,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24_001"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 1994,
+                          "duration" : 2936,
+                          "mediaStart" : 2131,
+                          "mediaDuration" : 2936,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 16,
+                          "_type" : "ScreenVMFile",
+                          "src" : 2,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24_001"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 4930,
+                          "duration" : 10,
+                          "mediaStart" : 5178,
+                          "mediaDuration" : 10,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 18376,
+                    "duration" : 4769,
+                    "mediaStart" : 166,
+                    "mediaDuration" : 4769,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 17,
+                    "_type" : "StitchedMedia",
+                    "minMediaStart" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 12-24-24",
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                    "parameters" : {
+                      "cursorOpacity" : 1.0,
+                      "cursorScale" : 1.0
+                    },
+                    "medias" : [
+                        {
+                          "id" : 18,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 0,
+                          "duration" : 1150,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 1150,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 19,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 1150,
+                          "duration" : 312,
+                          "mediaStart" : 1570,
+                          "mediaDuration" : 312,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 20,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 1462,
+                          "duration" : 477,
+                          "mediaStart" : 2265,
+                          "mediaDuration" : 477,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 21,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 1939,
+                          "duration" : 812,
+                          "mediaStart" : 2875,
+                          "mediaDuration" : 812,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 22,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 2751,
+                          "duration" : 10896,
+                          "mediaStart" : 3761,
+                          "mediaDuration" : 10896,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 23,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 13647,
+                          "duration" : 2384,
+                          "mediaStart" : 14831,
+                          "mediaDuration" : 2384,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 24,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 16031,
+                          "duration" : 1154,
+                          "mediaStart" : 17289,
+                          "mediaDuration" : 1154,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 25,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 17185,
+                          "duration" : 1731,
+                          "mediaStart" : 18525,
+                          "mediaDuration" : 1731,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 26,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 18916,
+                          "duration" : 425,
+                          "mediaStart" : 21087,
+                          "mediaDuration" : 425,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        },
+                        {
+                          "id" : 27,
+                          "_type" : "ScreenVMFile",
+                          "src" : 1,
+                          "trackNumber" : 0,
+                          "attributes" : {
+                            "ident" : "Rec 12-24-24"
+                          },
+                          "parameters" : {
+                            "cursorScale" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            },
+                            "cursorOpacity" : {
+                              "type" : "double",
+                              "defaultValue" : 0.0,
+                              "interp" : "linr"
+                            }
+                          },
+                          "effects" : [
+
+                          ],
+                          "start" : 19341,
+                          "duration" : 2592,
+                          "mediaStart" : 21595,
+                          "mediaDuration" : 2592,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "AutoAppliedSmartFocus" : "False",
+                            "clipSpeedAttribute" : false
+                          },
+                          "animationTracks" : {
+
+                          }
+                        }
+                    ],
+                    "effects" : [
+
+                    ],
+                    "start" : 23145,
+                    "duration" : 2927,
+                    "mediaStart" : 18918,
+                    "mediaDuration" : 2927,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "AutoAppliedSmartFocus" : "False",
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 1,
+                "medias" : [
+                  {
+                    "id" : 28,
+                    "_type" : "StitchedMedia",
+                    "minMediaStart" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 12-24-24",
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                    "parameters" : {
+                      "translation0" : 822.0,
+                      "translation1" : -444.0,
+                      "scale0" : 0.25,
+                      "scale1" : 0.25,
+                      "volume" : 1.0,
+                      "cursorOpacity" : 1.0,
+                      "cursorScale" : 1.0
+                    },
+                    "medias" : [
+                        {
+                          "id" : 29,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 30,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 0,
+                                "duration" : 1150,
+                                "mediaStart" : 0,
+                                "mediaDuration" : 1150,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 31,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 0,
+                                "duration" : 1150,
+                                "mediaStart" : 0,
+                                "mediaDuration" : 1150,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 0,
+                          "duration" : 1150,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 32,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 33,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 1150,
+                                "duration" : 312,
+                                "mediaStart" : 1570,
+                                "mediaDuration" : 312,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 34,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 1150,
+                                "duration" : 312,
+                                "mediaStart" : 1570,
+                                "mediaDuration" : 312,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 1150,
+                          "duration" : 312,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 35,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 36,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 1462,
+                                "duration" : 477,
+                                "mediaStart" : 2265,
+                                "mediaDuration" : 477,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 37,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 1462,
+                                "duration" : 477,
+                                "mediaStart" : 2265,
+                                "mediaDuration" : 477,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 1462,
+                          "duration" : 477,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 38,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 39,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 1939,
+                                "duration" : 812,
+                                "mediaStart" : 2875,
+                                "mediaDuration" : 812,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 40,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 1939,
+                                "duration" : 812,
+                                "mediaStart" : 2875,
+                                "mediaDuration" : 812,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 1939,
+                          "duration" : 812,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 41,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 42,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 2751,
+                                "duration" : 10951,
+                                "mediaStart" : 3761,
+                                "mediaDuration" : 10951,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 43,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 2751,
+                                "duration" : 10951,
+                                "mediaStart" : 3761,
+                                "mediaDuration" : 10951,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 2751,
+                          "duration" : 10951,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 44,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 45,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 13702,
+                                "duration" : 2384,
+                                "mediaStart" : 14886,
+                                "mediaDuration" : 2384,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 46,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 13702,
+                                "duration" : 2384,
+                                "mediaStart" : 14886,
+                                "mediaDuration" : 2384,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 13702,
+                          "duration" : 2384,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 47,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 48,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 16086,
+                                "duration" : 1154,
+                                "mediaStart" : 17344,
+                                "mediaDuration" : 1154,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 49,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 16086,
+                                "duration" : 1154,
+                                "mediaStart" : 17344,
+                                "mediaDuration" : 1154,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 16086,
+                          "duration" : 1154,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 50,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 51,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 17240,
+                                "duration" : 5612,
+                                "mediaStart" : 18580,
+                                "mediaDuration" : 5612,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 52,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 17240,
+                                "duration" : 5612,
+                                "mediaStart" : 18580,
+                                "mediaDuration" : 5612,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 17240,
+                          "duration" : 5612,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        }
+                    ],
+                    "effects" : [
+                        {
+                          "effectName" : "NoiseReduction",
+                          "category" : "categoryAudioEffects",
+                          "parameters" : {
+                            "denoiserAmount" : 20.0,
+                            "denoiserThreshold" : 0.0,
+                            "noiseProfile" : "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\r\nYH6EPKfSYDwKe0o8eedmPJS3VDw9nqg8yawbPDbOXzyoakw8JL9OPIb+KDxKypA855FSPLrjXjze\r\n3W88U7EgPI50dzzWUVo8aRg6POVaUDz8Syw8vsJqPNl7GTwAmGc8r9oBPAdMZTy04H48F+CTPF1f\r\nJzwQc1c8sJkZPIEtRDzIzRE8+MZTPEAd1juPDXM8qBjYO98qhjzkeg48QqT2OyfJQjxk4XY7SaVa\r\nPN3MbDy88DU8mV2+O6Ok/zsm+a87xvpLPDzGNzyfnfU7SOIlPOwDUzzoYjA8gScsPI6ZNzzoREQ8\r\niCZLPNAGuDswRB88fGArPLQ7Zzzdsvk7ykHwO/GIEDwLgdg7a9XSO8uu7jvJhRA8PL1dPMOoRDxU\r\nJd87v7C/O0mMXDzs+UA8UlCHPMbIQzzm420852cCPEZwjTwjs0Q85pJQPDRxCTwIXgk83MSVO7pY\r\nJTy+4jg8IkzoO4jRDTxaPXE84vgdPDLA3DuZT/A7HmF3O/1d/jvxeIQ8NfclPH7L4Tt+rto7+EZ1\r\nPKyi3jve6jA8vR8kPOI7Pjybd6I7rJloPPZzPDx5K5I8IFLuOwC2IjyGAEc8FF81POPd/zuZiTs8\r\nXvU2PPO8wDug0/M7EJctPGxb8zuvHaE7gmcHPMGDQTyuYSc8omYDPK5sBDw8xAc8EzScO4UStjvm\r\nBi88Fu45PEABLjx7ih48rW/GO13hHTwhBiI8K3wSPC5J/TtqJg08d6EXPCP8SDycxm08MUOAPMwX\r\nCDz0+UQ8/vgePLSlKzwFqwE8FnAoPK7I9TsPHy88lr41PJfYATxa3wA8mk2tO3EuKzwYIlg8bC+0\r\nO+X7ZTycoSc8ppMIPGBcDzxw9b07P5hSPP4e/juOER0852s9PG2WyTu2OBA81E8fPJ60GTzp4DY7\r\nPeoXPPIo7Du6Vro80QgqPCAORjxqzts79yM1PC2HDDylvwE8Zw6tOyZztDsl8xg8q0ooPFDh5Tu6\r\nBQY8UBUuPDox7zucbSM8jO3qO1dbHzw4in07yf8fPOCILjyBhx08+ID2O2LKYjzIPww8hUBZPIyG\r\nMDz7cb87fPpDPCJbJDyQpFg8ZDYmPIOIBzyVrdU7uGQHPF8RAzxXpCw8hjunO4iPDDzuIrQ7Wis2\r\nPPkaBjwzd7E7eOfPO7amSTyZQD88JE3sO2OpCzzCCoE8/JK8OxVm0DtDV/07BJsEPDIkuDu5PkA8\r\nGJLPOxY5Ajw/rBs8qEknPLAIBDwLixw8SiUHPG9W2TuavgY8Jx8FPH7zBjz5mdg7dqUVPLvRAzwo\r\nKrM7HwrtO5c5BDxb4QU8roULPNo8CTwsK+47MmoOPOk62TsODfI7QksZPP5oEjwgIiA83zg7PGPC\r\n7Ds8Y6Y7D7EFPAN9ozts/oE7DPPmO1D+8TsGtAo8aPXrOxlNojtIVQQ8WV6/O5T0ATzqRSo86wrF\r\nOyFn2Du0y9M7ClSmO6SR0TuqVrw71W3WO6ALrjuxtt07ne8dPFuDnDut/g48Pgf6OwdGsjubm/A7\r\nNTgIPOQjBjwHlQo8+jIIPAa+CTz0Ywg8yrc5PPsytTs+rwQ8qwWxO4GzQDw6XOg7vEsRPJ79xTs0\r\n6248a2WXO8FEyTvjI/s7V472O+wtATwRt/07mtjnO2eDIjy6eP87u1RpPLS/zDtV8eE7PkMBPDjJ\r\n0TvQr4s7+VubPLZpRDu6+X88TDuvO+FS/jt+JgY8cKMGPCMwAzyy87I7N+hDPHhc/zujOd075xUk\r\nPBl5tTuzECQ8m5bAO74h5TsXdAw8YWYIPEhrCDwhAwY8RlkEPE79AjzEVwA8dhb2O9hm8DsJNTQ8\r\nqK9wO0vnvDsxUAI8SGQlPGUPgDvZ0ws8vLXeO8GdTzvmN6s7QkzHO3XRxDtvFy48bF8GPHK37zsK\r\nW+Y7h7LEOzdjaztwyoU7oET3O3Tljzt0pQ48dbo0PJaxAjxOzpU7FRGwO6HlKTykQ407C6WKPG/U\r\nNzz/xaA7XnmwO0nOXTx4nF881p2MO916ojvVm5c7sdYDPEvhBDyh5Y87Zj4wPKQ28juV+Ac8rfAI\r\nPE4PCjx0jgo8bekIPBHXBzxRXfI7XnakO1mjXDzDtAs8NFIOPNdbCzw/uAw8hg4MPIruCzzgqeE7\r\nR6sBPMevATwlEwU8PZYFPM1HCDzsTAg8+awHPHHDBTzaKwc8LBIHPAz2BjyoJAc8/9QGPO/EBDxI\r\nXgY8BYIFPLCuBzyyMQc83gYIPNntBjyfOwY8alcHPHjFBDxtIQU8NMkGPBQwCDyavQc8j0gHPEHL\r\nBjybiAY8pnMFPLX6BTz7VQc84IkFPMXrBTwBtwY8bUcGPHjuBDx6CwY8l7YGPMO9BjyRjgY8wnwF\r\nPMASBjy4GAU8dVkFPPxgBzwVVgU8O3EFPEzkBTyn9AU8rCcGPJbRBjyhZwU8EVMGPA==",
+                            "noiseTrainingType" : "default"
+                          },
+                          "metadata" : {
+                            "effectIndex" : "0"
+                          }
+                        },
+                        {
+                          "effectName" : "WinCompression",
+                          "category" : "categoryAudioEffects",
+                          "parameters" : {
+                            "attack" : 0.0,
+                            "gain" : 9.0,
+                            "preset" : 1,
+                            "ratio" : 10.0,
+                            "release" : 3500.0,
+                            "threshold" : -20.0
+                          }
+                        }
+                    ],
+                    "start" : 0,
+                    "duration" : 18376,
+                    "mediaStart" : 382,
+                    "mediaDuration" : 18376,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 53,
+                    "_type" : "StitchedMedia",
+                    "minMediaStart" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 12-24-24_001",
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                    "parameters" : {
+                      "translation0" : 822.0,
+                      "translation1" : -444.0,
+                      "scale0" : 0.25,
+                      "scale1" : 0.25,
+                      "volume" : 1.0,
+                      "cursorOpacity" : 1.0,
+                      "cursorScale" : 1.0
+                    },
+                    "medias" : [
+                        {
+                          "id" : 54,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 55,
+                                "_type" : "VMFile",
+                                "src" : 2,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24_001"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 0,
+                                "duration" : 1994,
+                                "mediaStart" : 0,
+                                "mediaDuration" : 1994,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 56,
+                                "_type" : "AMFile",
+                                "src" : 2,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 0,
+                                "duration" : 1994,
+                                "mediaStart" : 0,
+                                "mediaDuration" : 1994,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 0,
+                          "duration" : 1994,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 5189,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 57,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 58,
+                                "_type" : "VMFile",
+                                "src" : 2,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24_001"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 1994,
+                                "duration" : 2936,
+                                "mediaStart" : 2131,
+                                "mediaDuration" : 2936,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 59,
+                                "_type" : "AMFile",
+                                "src" : 2,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 1994,
+                                "duration" : 2936,
+                                "mediaStart" : 2131,
+                                "mediaDuration" : 2936,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 1994,
+                          "duration" : 2936,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 5189,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 60,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 61,
+                                "_type" : "VMFile",
+                                "src" : 2,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24_001"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 4930,
+                                "duration" : 11,
+                                "mediaStart" : 5178,
+                                "mediaDuration" : 11,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 62,
+                                "_type" : "AMFile",
+                                "src" : 2,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 4930,
+                                "duration" : 11,
+                                "mediaStart" : 5178,
+                                "mediaDuration" : 11,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 4930,
+                          "duration" : 11,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 5189,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        }
+                    ],
+                    "effects" : [
+                        {
+                          "effectName" : "NoiseReduction",
+                          "category" : "categoryAudioEffects",
+                          "parameters" : {
+                            "denoiserAmount" : 20.0,
+                            "denoiserThreshold" : 0.0,
+                            "noiseProfile" : "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\r\nUGR5Onf1mTo6VI06gudSOmG20TomL5o6JmviOueVzTruapA61FauOr9S2DpYMms7hv6eO/SjDTqO\r\nNaM6+H7fOXXcsjppKrk6+AVPOgiMdDqNXz46zjJZOruGljsdd906YKULO8DZxDqIj486q5OlOrox\r\niTqcUAs7gfyHOvKP5TrqL5s6JUwCO3OMozq6DEM6OtUFOyQTgjrawF4699mEOugQijohQcE6sFWY\r\nOrXChjqZgKs6t+QkOurowzowfZI6BxzFOhs1kTq7QOM6rpSDOlpeCzv45YI7gAwGO+YxUjvQ/Kg6\r\nqsyEOgD7ODpsK246CWb3OsHgijogMVs6suCJOq2ttDr0cAI7O1SOOrFrlzqPSAs7pbgHO7Kz6zpn\r\nhco6gAW0OlwkhzrsR+A6PSmgOk9hXzqfd1g6QKuYOhUPLTv91xU7G/e9OnLVJzpXAgg7XYPuOnJe\r\nHjuuTnA6OnnCOoqbPTsFf8k6bbNZOwnLiDoGaxg7qEhHOvZ/LjtSk4g6pbXQOp4VmzoBzws7NAyP\r\nOhVZzTqdsAA726TgOpNhsTofjz07g9nTOhBggDpgeK46Br5CO1qW4TqM5Xw6m2+DOnlHNTq5Big6\r\ndGLpOjLxTzsCbvw6pYOPOl6EBDum/y07kT5KO65Bazokg4w6sEA2O7PWtzouCs46AnYCO5tgAzs7\r\nzZ46Gl0NO13WKTsYTBc7VWXMOpIDHDreeLQ6RN2yOhR+vzq6UZM6YQaeOrcl8TrCZkA74p+sOpoa\r\nJjueqoM6al/oOnIdTzvVSKw6wOs8O7wiezpo97M6Zv3XOsCc7Tr3XeI60FUmO9PGJDuYUQ07On56\r\nO9q5JTttvJs6UNvtOgVsMTtU1RE7pBAbOxOsCjsgTx87lQtUO9rh3jqya1c7ELiLOp1YHDuvReY6\r\n+OJUO4wsKDuOBcE6Exm+Or+RijvQWBU7xXXaOk8MMTvZBTc7kqh/O1g9Dzv/ORI71A1mO3wrgDtc\r\nv9s6R4/hOiroBDuLL/o6jIhqO15eIDuKFts6ZFSeOkKnhzqMz3o6FH8MO+yOzTot6Ts7RbXzOnxK\r\nezoCTWw6QiuoOjlTvDrZDeE6GOnNOolMszp+Cho7O5b+OpYYsTruByo7kEK4OoSPhDuXxTk6XQdY\r\nOgMYuTqBDmI6ZqaNO0kHLjuvX8I6nAL8Ojoa8TqMPxo7ZJSOOiLimTolNqo6TqcQO3VfCztE1s46\r\n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",
+                            "noiseTrainingType" : "default"
+                          }
+                        },
+                        {
+                          "effectName" : "WinCompression",
+                          "category" : "categoryAudioEffects",
+                          "parameters" : {
+                            "attack" : 0.0,
+                            "gain" : 9.0,
+                            "preset" : 1,
+                            "ratio" : 10.0,
+                            "release" : 3500.0,
+                            "threshold" : -20.0
+                          }
+                        }
+                    ],
+                    "start" : 18376,
+                    "duration" : 4769,
+                    "mediaStart" : 166,
+                    "mediaDuration" : 4769,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  },
+                  {
+                    "id" : 63,
+                    "_type" : "StitchedMedia",
+                    "minMediaStart" : 0,
+                    "attributes" : {
+                      "ident" : "Rec 12-24-24",
+                      "gain" : 1.0,
+                      "mixToMono" : false
+                    },
+                    "parameters" : {
+                      "translation0" : 822.0,
+                      "translation1" : -444.0,
+                      "scale0" : 0.25,
+                      "scale1" : 0.25,
+                      "volume" : 1.0,
+                      "cursorOpacity" : 1.0,
+                      "cursorScale" : 1.0
+                    },
+                    "medias" : [
+                        {
+                          "id" : 64,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 65,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 0,
+                                "duration" : 1150,
+                                "mediaStart" : 0,
+                                "mediaDuration" : 1150,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 66,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 0,
+                                "duration" : 1150,
+                                "mediaStart" : 0,
+                                "mediaDuration" : 1150,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 0,
+                          "duration" : 1150,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 67,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 68,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 1150,
+                                "duration" : 312,
+                                "mediaStart" : 1570,
+                                "mediaDuration" : 312,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 69,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 1150,
+                                "duration" : 312,
+                                "mediaStart" : 1570,
+                                "mediaDuration" : 312,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 1150,
+                          "duration" : 312,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 70,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 71,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 1462,
+                                "duration" : 477,
+                                "mediaStart" : 2265,
+                                "mediaDuration" : 477,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 72,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 1462,
+                                "duration" : 477,
+                                "mediaStart" : 2265,
+                                "mediaDuration" : 477,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 1462,
+                          "duration" : 477,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 73,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 74,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 1939,
+                                "duration" : 812,
+                                "mediaStart" : 2875,
+                                "mediaDuration" : 812,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 75,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 1939,
+                                "duration" : 812,
+                                "mediaStart" : 2875,
+                                "mediaDuration" : 812,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 1939,
+                          "duration" : 812,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 76,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 77,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 2751,
+                                "duration" : 10951,
+                                "mediaStart" : 3761,
+                                "mediaDuration" : 10951,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 78,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 2751,
+                                "duration" : 10951,
+                                "mediaStart" : 3761,
+                                "mediaDuration" : 10951,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 2751,
+                          "duration" : 10951,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 79,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 80,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 13702,
+                                "duration" : 2384,
+                                "mediaStart" : 14886,
+                                "mediaDuration" : 2384,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 81,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 13702,
+                                "duration" : 2384,
+                                "mediaStart" : 14886,
+                                "mediaDuration" : 2384,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 13702,
+                          "duration" : 2384,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 82,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 83,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 16086,
+                                "duration" : 1154,
+                                "mediaStart" : 17344,
+                                "mediaDuration" : 1154,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 84,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 16086,
+                                "duration" : 1154,
+                                "mediaStart" : 17344,
+                                "mediaDuration" : 1154,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 16086,
+                          "duration" : 1154,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 85,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 86,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 17240,
+                                "duration" : 1732,
+                                "mediaStart" : 18580,
+                                "mediaDuration" : 1732,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 87,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 17240,
+                                "duration" : 1732,
+                                "mediaStart" : 18580,
+                                "mediaDuration" : 1732,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 17240,
+                          "duration" : 1732,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 88,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 89,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 18972,
+                                "duration" : 425,
+                                "mediaStart" : 21143,
+                                "mediaDuration" : 425,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 90,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 18972,
+                                "duration" : 425,
+                                "mediaStart" : 21143,
+                                "mediaDuration" : 425,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 18972,
+                          "duration" : 425,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        },
+                        {
+                          "id" : 91,
+                          "_type" : "UnifiedMedia",
+                          "video" : 
+                              {
+                                "id" : 92,
+                                "_type" : "VMFile",
+                                "src" : 1,
+                                "trackNumber" : 1,
+                                "attributes" : {
+                                  "ident" : "Rec 12-24-24"
+                                },
+                                "effects" : [
+
+                                ],
+                                "start" : 19397,
+                                "duration" : 2541,
+                                "mediaStart" : 21651,
+                                "mediaDuration" : 2541,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              },
+                          "audio" : 
+                              {
+                                "id" : 93,
+                                "_type" : "AMFile",
+                                "src" : 1,
+                                "trackNumber" : 2,
+                                "attributes" : {
+                                  "ident" : "",
+                                  "gain" : 1.0,
+                                  "mixToMono" : false
+                                },
+                                  "channelNumber" : "0,1",
+                                "effects" : [
+
+                                ],
+                                "start" : 19397,
+                                "duration" : 2541,
+                                "mediaStart" : 21651,
+                                "mediaDuration" : 2541,
+                                "scalar" : 1,
+                                "animationTracks" : {
+
+                                }
+                              }
+,
+                          "start" : 19397,
+                          "duration" : 2541,
+                          "mediaStart" : 0,
+                          "mediaDuration" : 24192,
+                          "scalar" : 1,
+                          "metadata" : {
+                            "clipSpeedAttribute" : false
+                          }
+                        }
+                    ],
+                    "effects" : [
+                        {
+                          "effectName" : "NoiseReduction",
+                          "category" : "categoryAudioEffects",
+                          "parameters" : {
+                            "denoiserAmount" : 20.0,
+                            "denoiserThreshold" : 0.0,
+                            "noiseProfile" : "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\r\nYH6EPKfSYDwKe0o8eedmPJS3VDw9nqg8yawbPDbOXzyoakw8JL9OPIb+KDxKypA855FSPLrjXjze\r\n3W88U7EgPI50dzzWUVo8aRg6POVaUDz8Syw8vsJqPNl7GTwAmGc8r9oBPAdMZTy04H48F+CTPF1f\r\nJzwQc1c8sJkZPIEtRDzIzRE8+MZTPEAd1juPDXM8qBjYO98qhjzkeg48QqT2OyfJQjxk4XY7SaVa\r\nPN3MbDy88DU8mV2+O6Ok/zsm+a87xvpLPDzGNzyfnfU7SOIlPOwDUzzoYjA8gScsPI6ZNzzoREQ8\r\niCZLPNAGuDswRB88fGArPLQ7Zzzdsvk7ykHwO/GIEDwLgdg7a9XSO8uu7jvJhRA8PL1dPMOoRDxU\r\nJd87v7C/O0mMXDzs+UA8UlCHPMbIQzzm420852cCPEZwjTwjs0Q85pJQPDRxCTwIXgk83MSVO7pY\r\nJTy+4jg8IkzoO4jRDTxaPXE84vgdPDLA3DuZT/A7HmF3O/1d/jvxeIQ8NfclPH7L4Tt+rto7+EZ1\r\nPKyi3jve6jA8vR8kPOI7Pjybd6I7rJloPPZzPDx5K5I8IFLuOwC2IjyGAEc8FF81POPd/zuZiTs8\r\nXvU2PPO8wDug0/M7EJctPGxb8zuvHaE7gmcHPMGDQTyuYSc8omYDPK5sBDw8xAc8EzScO4UStjvm\r\nBi88Fu45PEABLjx7ih48rW/GO13hHTwhBiI8K3wSPC5J/TtqJg08d6EXPCP8SDycxm08MUOAPMwX\r\nCDz0+UQ8/vgePLSlKzwFqwE8FnAoPK7I9TsPHy88lr41PJfYATxa3wA8mk2tO3EuKzwYIlg8bC+0\r\nO+X7ZTycoSc8ppMIPGBcDzxw9b07P5hSPP4e/juOER0852s9PG2WyTu2OBA81E8fPJ60GTzp4DY7\r\nPeoXPPIo7Du6Vro80QgqPCAORjxqzts79yM1PC2HDDylvwE8Zw6tOyZztDsl8xg8q0ooPFDh5Tu6\r\nBQY8UBUuPDox7zucbSM8jO3qO1dbHzw4in07yf8fPOCILjyBhx08+ID2O2LKYjzIPww8hUBZPIyG\r\nMDz7cb87fPpDPCJbJDyQpFg8ZDYmPIOIBzyVrdU7uGQHPF8RAzxXpCw8hjunO4iPDDzuIrQ7Wis2\r\nPPkaBjwzd7E7eOfPO7amSTyZQD88JE3sO2OpCzzCCoE8/JK8OxVm0DtDV/07BJsEPDIkuDu5PkA8\r\nGJLPOxY5Ajw/rBs8qEknPLAIBDwLixw8SiUHPG9W2TuavgY8Jx8FPH7zBjz5mdg7dqUVPLvRAzwo\r\nKrM7HwrtO5c5BDxb4QU8roULPNo8CTwsK+47MmoOPOk62TsODfI7QksZPP5oEjwgIiA83zg7PGPC\r\n7Ds8Y6Y7D7EFPAN9ozts/oE7DPPmO1D+8TsGtAo8aPXrOxlNojtIVQQ8WV6/O5T0ATzqRSo86wrF\r\nOyFn2Du0y9M7ClSmO6SR0TuqVrw71W3WO6ALrjuxtt07ne8dPFuDnDut/g48Pgf6OwdGsjubm/A7\r\nNTgIPOQjBjwHlQo8+jIIPAa+CTz0Ywg8yrc5PPsytTs+rwQ8qwWxO4GzQDw6XOg7vEsRPJ79xTs0\r\n6248a2WXO8FEyTvjI/s7V472O+wtATwRt/07mtjnO2eDIjy6eP87u1RpPLS/zDtV8eE7PkMBPDjJ\r\n0TvQr4s7+VubPLZpRDu6+X88TDuvO+FS/jt+JgY8cKMGPCMwAzyy87I7N+hDPHhc/zujOd075xUk\r\nPBl5tTuzECQ8m5bAO74h5TsXdAw8YWYIPEhrCDwhAwY8RlkEPE79AjzEVwA8dhb2O9hm8DsJNTQ8\r\nqK9wO0vnvDsxUAI8SGQlPGUPgDvZ0ws8vLXeO8GdTzvmN6s7QkzHO3XRxDtvFy48bF8GPHK37zsK\r\nW+Y7h7LEOzdjaztwyoU7oET3O3Tljzt0pQ48dbo0PJaxAjxOzpU7FRGwO6HlKTykQ407C6WKPG/U\r\nNzz/xaA7XnmwO0nOXTx4nF881p2MO916ojvVm5c7sdYDPEvhBDyh5Y87Zj4wPKQ28juV+Ac8rfAI\r\nPE4PCjx0jgo8bekIPBHXBzxRXfI7XnakO1mjXDzDtAs8NFIOPNdbCzw/uAw8hg4MPIruCzzgqeE7\r\nR6sBPMevATwlEwU8PZYFPM1HCDzsTAg8+awHPHHDBTzaKwc8LBIHPAz2BjyoJAc8/9QGPO/EBDxI\r\nXgY8BYIFPLCuBzyyMQc83gYIPNntBjyfOwY8alcHPHjFBDxtIQU8NMkGPBQwCDyavQc8j0gHPEHL\r\nBjybiAY8pnMFPLX6BTz7VQc84IkFPMXrBTwBtwY8bUcGPHjuBDx6CwY8l7YGPMO9BjyRjgY8wnwF\r\nPMASBjy4GAU8dVkFPPxgBzwVVgU8O3EFPEzkBTyn9AU8rCcGPJbRBjyhZwU8EVMGPA==",
+                            "noiseTrainingType" : "default"
+                          },
+                          "metadata" : {
+                            "effectIndex" : "0"
+                          }
+                        },
+                        {
+                          "effectName" : "WinCompression",
+                          "category" : "categoryAudioEffects",
+                          "parameters" : {
+                            "attack" : 0.0,
+                            "gain" : 9.0,
+                            "preset" : 1,
+                            "ratio" : 10.0,
+                            "release" : 3500.0,
+                            "threshold" : -20.0
+                          }
+                        }
+                    ],
+                    "start" : 23145,
+                    "duration" : 2927,
+                    "mediaStart" : 18974,
+                    "mediaDuration" : 2927,
+                    "scalar" : 1,
+                    "metadata" : {
+                      "clipSpeedAttribute" : false
+                    },
+                    "animationTracks" : {
+
+                    }
+                  }
+                ]
+              },
+              {
+                "trackIndex" : 2,
+                "medias" : [
+                ]
+              },
+              {
+                "trackIndex" : 3,
+                "medias" : [
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "trackAttributes" : [
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      },
+      {
+        "ident" : "",
+        "audioMuted" : false,
+        "videoHidden" : false,
+        "magnetic" : false,
+        "matte" : 0,
+        "metadata" : {
+          "IsLocked" : "False",
+          "WinTrackHeight" : "56"
+        }
+      }
+    ],
+    "captionAttributes" : {
+      "enabled" : true,
+      "fontName" : "Arial",
+      "fontSize" : 60,
+      "backgroundColor" : [ 0, 0, 0, 191],
+      "foregroundColor" : [ 255, 255, 255, 255],
+      "lang" : "en",
+      "alignment" : 0,
+      "defaultFontSize" : true,
+      "opacity" : 0.5,
+      "backgroundEnabled" : true,
+      "backgroundOnlyAroundText" : true
+    },
+    "backgroundColor" : [ 0, 0, 0, 255]
+  },
+  "metadata" : {
+    "AutoSaveFile" : "C:\\Users\\eamon\\AppData\\Local\\TechSmith\\Camtasia Studio\\19.0\\Auto-Saves\\Untitled Project39dc1407.autosave.tscproj",
+    "CanvasZoom" : 51,
+    "Date" : "2024-12-24 06:35:32 AM",
+    "IsAutoSave" : "0",
+    "Language" : "ENU",
+    "ProfileName" : "",
+    "ProjectDimensionsChanged" : "1",
+    "Title" : "assignment-2-ek-v6",
+    "audioNarrationNotes" : "",
+    "calloutStyle" : "Basic",
+    "canvasDetached" : "False",
+    "canvasPositionHeight" : "0",
+    "canvasPositionLeft" : "0",
+    "canvasPositionTop" : "0",
+    "canvasPositionWidth" : "0"
+  }
+}

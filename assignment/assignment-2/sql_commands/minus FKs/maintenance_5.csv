@@ -1,0 +1,20 @@
+﻿event_ID,work_type,work_detail
+1001,Engine Check,Routine engine maintenance
+1002,Landing Gear Inspection,Check landing gear condition
+1003,Wing Inspection,Check wing surface for damage
+1004,Aileron Check,Test aileron response
+1005,Turbine Inspection,Inspect turbine for wear and tear
+1006,Nose Wheel Inspection,Check for wheel wear
+1007,Air Filter Replacement,Replace cabin air filters
+1008,Hydraulic Check,Inspect hydraulic fluid levels
+1009,Engine Oil Change,Change engine oil
+1010,Wing Flap Check,Check wing flaps for functionality
+1011,Turbine Check,Inspect turbine for damages
+1012,Air Conditioning Repair,Repair AC system
+1013,Fuel System Inspection,Check fuel lines for leaks
+1014,Landing Gear Lubrication,Lubricate landing gear
+1015,Turbine Calibration,Calibrate turbine engin
+1016,Battery Check,Check battery condition
+1017,Electrical Systems Check,Inspect electrical wiring and systems
+1018,Structural Integrity Check,Check fuselage for cracks
+1019,Brake System Check,Test brake system functionality

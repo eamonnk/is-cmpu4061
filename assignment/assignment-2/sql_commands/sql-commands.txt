@@ -1,0 +1,13 @@
+CREATE TABLE `airline-1`.`maintenance` (
+  `event_ID` INT NOT NULL,
+  `work_type` VARCHAR(25) NULL,
+  `work_detail` VARCHAR(50) NULL,
+  PRIMARY KEY (`event_ID`),
+  UNIQUE INDEX `event_ID_UNIQUE` (`event_ID` ASC) VISIBLE);
+
+
+CREATE TABLE `airline-1`.`airports` (
+  `airport_ID` VARCHAR(4) NOT NULL,
+  `name` VARCHAR(50) NULL,
+  `address` VARCHAR(255) NULL,
+  PRIMARY KEY (`airport_ID`));

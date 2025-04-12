@@ -1,0 +1,51 @@
+payment_ID,payment_type,payment_provider,credit_card_number,exp_date
+64425,Credit Card,Stripe,7.3318E+15,Jul-25
+774198,Apple Pay,MasterCard,9.0047E+15,May-28
+383070,Google Pay,MasterCard,1.75719E+15,Oct-30
+707478,Debit Card,Visa,4.6574E+15,Jun-29
+612284,Apple Pay,PayPal,8.58551E+15,May-24
+141468,Debit Card,Visa,6.59129E+15,Nov-29
+369160,Debit Card,Discover,9.3346E+15,Dec-28
+359011,Bank Transfer,American Express,4.68235E+15,Dec-26
+442376,Debit Card,PayPal,3.02181E+15,Oct-27
+744882,PayPal,MasterCard,9.97841E+15,Feb-30
+866181,Google Pay,Discover,2.53315E+15,Mar-25
+979969,Bank Transfer,Visa,5.35125E+15,Aug-26
+445855,Debit Card,MasterCard,8.31239E+15,Jul-25
+2837,Bank Transfer,American Express,2.78602E+15,Jul-26
+956146,Credit Card,Visa,4.95229E+15,Jul-27
+562873,Google Pay,American Express,3.84063E+15,Nov-25
+506592,Credit Card,Discover,6.62788E+15,Jan-24
+351025,Debit Card,PayPal,9.86118E+15,Oct-29
+477842,Bank Transfer,PayPal,4.88412E+15,May-30
+843519,Google Pay,Visa,8.44963E+15,Mar-26
+752682,PayPal,Stripe,8.00174E+15,Aug-25
+23564,Debit Card,Discover,5.16141E+15,Oct-25
+685779,Google Pay,American Express,9.64839E+15,Sep-25
+330802,PayPal,Discover,4.61336E+15,Jul-28
+104306,Google Pay,Stripe,5.65439E+15,Jul-24
+400671,Credit Card,American Express,5.75067E+15,Jun-28
+65201,PayPal,American Express,5.54718E+15,Apr-26
+192997,Apple Pay,MasterCard,2.94577E+15,Dec-29
+705707,Apple Pay,Visa,1.08781E+15,Mar-27
+692402,PayPal,American Express,4.36127E+15,Sep-28
+650049,Apple Pay,MasterCard,8.93143E+15,Sep-28
+969637,Credit Card,American Express,9.02916E+15,Jan-28
+398307,PayPal,American Express,6.37125E+15,Jan-26
+619102,PayPal,Stripe,4.46615E+15,Dec-28
+766779,Credit Card,American Express,9.49958E+15,Apr-26
+315995,Bank Transfer,Stripe,3.36038E+15,Sep-25
+17223,Google Pay,MasterCard,3.31132E+15,Aug-24
+36667,Credit Card,Discover,1.49316E+15,Dec-24
+404637,Bank Transfer,American Express,6.72941E+15,May-28
+267832,Bank Transfer,Stripe,9.13325E+15,Dec-26
+849319,Google Pay,Stripe,3.06006E+15,Apr-23
+207333,Debit Card,Visa,3.81077E+15,Oct-29
+3964,Credit Card,PayPal,5.32219E+15,Jun-30
+388134,Debit Card,American Express,2.64655E+15,Apr-29
+20836,Google Pay,Stripe,4.31612E+15,Mar-24
+535567,Bank Transfer,Stripe,8.59556E+15,Apr-29
+30528,Bank Transfer,Stripe,6.70983E+15,Jul-26
+797130,Debit Card,Discover,7.82865E+15,Jul-24
+213401,Google Pay,MasterCard,4.26591E+15,Feb-26
+210595,Bank Transfer,American Express,8.41347E+15,Oct-24

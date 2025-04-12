@@ -1,0 +1,93 @@
+-- Create database
+CREATE DATABASE IF NOT EXISTS airline_5_fk;
+USE airline_5_fk;
+
+-- Create Tables
+
+-- Airports Table
+CREATE TABLE IF NOT EXISTS Airports (
+    airport_ID VARCHAR(4) PRIMARY KEY,
+    name VARCHAR(50),
+    address VARCHAR(255)
+);
+
+-- Aircraft_Model Table
+CREATE TABLE IF NOT EXISTS aircraft_model (
+    aircraft_model_ID VARCHAR(50) PRIMARY KEY,
+    type VARCHAR(45),
+    year_of_manufacture YEAR,
+    configuration VARCHAR(45),
+    manufacturer_name VARCHAR(45)
+);
+
+-- Aircraft Table
+CREATE TABLE IF NOT EXISTS Aircraft (
+    aircraft_ID INT PRIMARY KEY,
+    seat_capacity INT,
+    min_num_staff_required_to_operate INT,
+);
+
+-- Payment_Methods Table
+CREATE TABLE IF NOT EXISTS Payment_Methods (
+    payment_ID INT PRIMARY KEY,
+    payment_type VARCHAR(45),
+    payment_provider VARCHAR(45),
+    credit_card_number BIGINT,
+    exp_date VARCHAR(45)
+);
+
+-- Customers Table
+CREATE TABLE IF NOT EXISTS Customers (
+    customer_ID INT PRIMARY KEY,
+    cust_first_name VARCHAR(45),
+    cust_surname VARCHAR(45),
+    cust_address VARCHAR(255),
+    cust_tel_no INT,
+    cust_email_address VARCHAR(50),
+    cust_payment_preference VARCHAR(45),
+);
+
+
+-- Maintenance Table
+CREATE TABLE IF NOT EXISTS Maintenance (
+    event_ID INT PRIMARY KEY,
+    work_type VARCHAR(25),
+    work_detail VARCHAR(50),
+);
+
+-- Flights Table
+CREATE TABLE IF NOT EXISTS Flights (
+    flight_ID INT PRIMARY KEY,
+    flight_number VARCHAR(10)
+    dep_date_time DATETIME,
+    arr_date_time DATETIME,
+
+);
+
+-- Bookings Table
+CREATE TABLE IF NOT EXISTS Bookings (
+    booking_ID INT PRIMARY KEY,
+    booking_date_time DATETIME,
+    payment_status BOOLEAN,
+    price DECIMAL(10, 2),
+    seat_number VARCHAR(5),
+    cust_checked_in BOOLEAN,
+    cust_boarded BOOLEAN,
+);
+
+-- Staff Table
+CREATE TABLE IF NOT EXISTS Staff (
+    staff_ID INT PRIMARY KEY,
+    job_title VARCHAR(45),
+    name VARCHAR(25),
+    address VARCHAR(255),
+    tel_no INT,
+    email_address VARCHAR(45),
+);
+
+-- Flight_Staff Table (Bridging Table for many-to-many relationship)
+CREATE TABLE IF NOT EXISTS Flight_Staff (
+    flight_role VARCHAR(45),
+);
+
+

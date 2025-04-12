@@ -1,0 +1,52 @@
+-- MySQL dump 10.13  Distrib 8.0.40, for Win64 (x86_64)
+--
+-- Host: localhost    Database: airline_5_fk
+-- ------------------------------------------------------
+-- Server version	8.0.40
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `aircraft`
+--
+
+DROP TABLE IF EXISTS `aircraft`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `aircraft` (
+  `aircraft_ID` int NOT NULL,
+  `seat_capacity` int DEFAULT NULL,
+  `min_num_staff_required_to_operate` int DEFAULT NULL,
+  PRIMARY KEY (`aircraft_ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `aircraft`
+--
+
+LOCK TABLES `aircraft` WRITE;
+/*!40000 ALTER TABLE `aircraft` DISABLE KEYS */;
+INSERT INTO `aircraft` VALUES (1,361,5),(2,275,6),(3,208,6),(4,251,6),(5,374,7),(6,223,13),(7,350,6),(8,332,11),(9,188,11),(10,263,5),(11,221,5),(12,168,6),(13,191,6),(14,229,5),(15,375,10),(16,320,6),(17,374,8),(18,288,6),(19,382,10),(20,162,7),(21,355,11),(22,251,10),(23,319,13),(24,262,12),(25,394,6),(26,335,6),(27,319,11),(28,189,10),(29,156,6),(30,343,13),(31,326,7),(32,197,7),(33,223,10),(34,164,10),(35,160,5),(36,309,5),(37,271,7),(38,179,11),(39,261,11),(40,397,11);
+/*!40000 ALTER TABLE `aircraft` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2024-12-21  3:31:16
